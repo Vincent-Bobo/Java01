@@ -1,0 +1,69 @@
+@startuml
+
+class Being
+
+class Creature{
+
+    int health
+    int attack
+    int defense
+    String[] memory
+    int memoryOffset
+
+    speakTo()
+    listen()
+    attack()
+    move()
+    receiveAttack()
+    isDead()
+    move()
+}
+
+class Human(){
+
+    beSad()
+    raiseHand()
+    turnBack()
+}
+
+class Monster(){
+
+    int magic
+    bePissed()
+    catchOne()
+    raiseOne()
+    throwAway()
+}
+
+class Friend(){
+
+    provocation()
+    gasp()
+    escape()
+    beShocked()
+}
+
+class Underling(){
+
+    catchOne()
+    throwAway()
+    chaseOne()
+}
+
+class Calabash(){
+    
+    int magic
+    hug()
+}
+
+Creature --|> Being
+
+Human --|> Creature
+
+Monster --|> Creature
+
+Friend --|> Creature
+
+Underling --|> Creature
+
+@enduml

@@ -1,0 +1,77 @@
+' https://www.bilibili.com/video/BV1Fk4y1V7Lf/?p=5&share_source=copy_web&vd_source=e474976df2544a1003332d083773f91d
+' 7:19 ~ 8:26
+
+@startuml
+actor 二娃 as secondbro
+actor 老头 as oldman
+actor 蟑螂精 as cockroach
+actor 蝎子精 as scorpion
+actor 穿山甲 as pangolin
+
+actor 蝙蝠守卫 as pairbat
+
+
+pangolin -[#Gray]> pangolin: 震惊
+
+pairbat -[#Gray]> pangolin: 追逐
+pairbat -[#Gray]> pangolin: 告诉
+note left: 站住！
+
+pangolin -[#Gray]> pangolin: 挑衅
+pangolin -[#Gray]> pairbat: 告诉
+note left: 你们别想抓住我！
+pangolin-[#Gray]> pairbat: 逃跑
+
+secondbro -[#Gray]> oldman: 抱住
+oldman -[#Gray]> oldman: 举起手
+oldman -[#Gray]> pangolin: 告诉
+note left: 你...
+
+pangolin -[#Gray]> pairbat: 逃跑
+pairbat -[#Gray]> pangolin: 追逐
+pangolin -[#Gray]> pairbat: 逃跑
+pairbat -[#Gray]> pangolin: 追逐
+pangolin -[#Gray]> pairbat: 逃跑
+pairbat -[#Gray]> pangolin: 追逐
+
+oldman -[#Gray]> oldman: 游走
+pangolin -[#Gray]> pangolin: 喘息
+
+scorpion -[#Gray]> pangolin: 捉住
+scorpion -[#Gray]> pangolin: 举起来
+scorpion -[#Gray]> pangolin: 告诉
+note left: 哈哈哈哈哈
+pangolin -[#Gray]> scorpion: 告诉
+note left: 你们这些坏蛋
+scorpion -[#Gray]> pangolin: 丢掉
+pairbat -[#Gray]> pangolin: 捉住
+
+cockroach -[#Gray]> scorpion:告诉
+note right
+    报告大王！大事不好
+    老头和瞎眼葫芦逃走了！
+end note
+scorpion -[#Gray]> scorpion: 动怒
+scorpion -[#Gray]> pairbat: 告诉
+note left:这...
+
+pairbat -[#Gray]> pangolin: 丢掉
+scorpion -[#Gray]> pangolin: 捉住
+pangolin -[#Gray]> scorpion: 告诉
+note right
+    放开我！
+    你们这群坏蛋！
+end note
+scorpion -[#Gray]> pangolin: 攻击了
+scorpion -[#Gray]> pangolin: 丢下山崖
+scorpion -[#Gray]> pangolin: 告诉
+note left: 去你的
+
+oldman -[#Gray]> oldman: 转身
+oldman -[#Gray]> oldman: 哭泣
+
+scorpion -[#Gray]> pairbat: 告诉
+note left: 把那老头给我抓回来！
+pairbat -[#Gray]> oldman: 追逐
+
+@enduml
